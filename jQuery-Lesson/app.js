@@ -10,6 +10,9 @@
 // });
 
 
+
+// ５章
+
 // // スライドダウン
 // $(document).ready(function(){
 //   $('.box1').slideDown();
@@ -51,6 +54,9 @@
 // });
 
 
+
+// 6章
+
 // // mouseover Event
 // $(function(){
 //   $('.box1').mouseover(function(){
@@ -81,11 +87,16 @@
 //   });
 // });
     // ↑と↓がどう違うのかわからない〜〜！！onの効果が掴めない
-$(function(){
-  $('.box1').on('click', function(){
-    $('.box1').addClass('box1-ext');
-  });
-  $('.box1').mouseout(function(){
-    $('.box1').removeClass('box1-ext');
-  });
-});
+// $(function(){
+//   $('.box1').on('click', function(){
+//     $('.box1').addClass('box1-ext');
+//   });
+//   $('.box1').mouseout(function(){
+//     $('.box1').removeClass('box1-ext');
+//   });
+// });
+
+
+
+// ７章
+
