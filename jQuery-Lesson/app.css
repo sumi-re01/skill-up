@@ -1,7 +1,12 @@
 .box1 {
-  display: none;　
-  /* スライドダウン UPの時はいらない */
+  /* display: none;　 */
+  /* スライドダウンの時に↑ UPの時はいらない */
   background-color: #ff0000;
   height: 200px;
   width: 200px;
+}
+
+/* mouseover */
+.box1-ext {
+  border: 10px solid black;
 }

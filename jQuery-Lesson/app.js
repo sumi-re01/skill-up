@@ -27,16 +27,17 @@
 // });
 
 
-// 確認問題
-$(function(){
-  $('.box1').slideDown(function (){
-    $('.box1').css({
-      'background-color': '#0000FF',
-      'height': '100px',
-      'width': '200px'
-    }).slideUp();
-  });
-});
+
+// // 確認問題
+// $(function(){
+//   $('.box1').slideDown(function (){
+//     $('.box1').css({
+//       'background-color': '#0000FF',
+//       'height': '100px',
+//       'width': '200px'
+//     }).slideUp();
+//   });
+// });
 
 // 回答
 // $(function (){
@@ -48,3 +49,43 @@ $(function(){
 //     }).slideUp();
 //   });
 // });
+
+
+// // mouseover Event
+// $(function(){
+//   $('.box1').mouseover(function(){
+//     $('.box1').css({'background-color': '#0000FF'});
+//   });
+//   $('.box1').mouseout(function(){
+//     $('.box1').css({'background-color': '#FF0000'});
+//   });
+// });
+
+// $(function(){
+//   $('.box1').mouseover(function(){
+//     $('.box1').addClass('box1-ext');
+//   });
+//   $('.box1').mouseout(function(){
+//     $('.box1').removeClass('box1-ext');
+//   });
+// });
+
+
+// CLICK
+// $(function(){
+//   $('.box1').click(function(){
+//     $('.box1').addClass('box1-ext');
+//   });
+//   $('.box1').mouseout(function(){
+//     $('.box1').removeClass('box1-ext');
+//   });
+// });
+    // ↑と↓がどう違うのかわからない〜〜！！onの効果が掴めない
+$(function(){
+  $('.box1').on('click', function(){
+    $('.box1').addClass('box1-ext');
+  });
+  $('.box1').mouseout(function(){
+    $('.box1').removeClass('box1-ext');
+  });
+});
